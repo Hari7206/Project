@@ -1,3 +1,5 @@
 here i learn some new property like 
 d-flex which is used as the display flex and the gap-4 an all for the gaping in the div 
 -- new thing we learn here is the model to type so we can add the form like thing in our website  -- here we have to give the db model and one specific id for our model and then we have to give the target 
+-- now we will learn about how to add the nav bar  we have 2 type desktop and off canvas nav bar 
+-- we always has to take the navbar brand in the a tag for divide it as the logo  to set the side bar of menu we have to use the off canvas for that we have to chnage  the id name of the button and we have to change the target of the id so it target to the our off canvas button
