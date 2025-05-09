@@ -1,0 +1,69 @@
+@media only screen and (min-width: 200px) and (max-width:575px){
+    .outer {
+        width: 100%;
+        justify-content: center !important;
+        left: 0px;
+        position: fixed;
+        bottom: 0px;
+        text-align: center;
+        background-color: white;
+    }
+    .bannerContent h1{
+        font-size: 18px !important;
+        font-weight: 700;
+        text-align: center !important;
+    }
+    .bannerContent h1 br {
+       display: none;
+    }
+    .bannerContent p {
+    font-size: 17px !important;
+}
+.bannerContent ul {
+    list-style: none;
+    
+}
+li{
+    font-size: 13px !important;
+}
+.opt i {
+    list-style: none;
+    color: #0380f4;
+}
+
+.bannerBtn  {
+    display: flex !important;
+     background: linear-gradient(to right , #0ACEFE , #2699FB);
+     padding-top: 5px;
+     padding-bottom: 5px;
+    border: 1px solid ;
+    border-radius: 10px;
+    color: white;
+}
+.bannerBtn:hover{
+    border: 2px solid #1303f4;
+}
+.bannerBtn2 {
+    margin-top: 5px !important;
+    display: flex !important;
+    padding-top: 5px;
+     padding-bottom: 5px;
+    background-color: transparent !important; 
+    border: 1px solid bisque;
+    border-radius: 10px;
+    color: black;
+}
+.bannerBtn2:hover{
+    border: 2px solid #031bf4;
+}
+.form {
+    padding: 20px 20px 20px 20px !important;
+    border: 2px solid #03f4e88e;
+}
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1120px;
+    }
+}
